@@ -60,17 +60,6 @@
     });
 
 
-    // Inicializa el asistente
-VapiChatbot.init({
-  assistantId: '08974042-e8ba-4de7-b75f-4d2e26d72334',
-  apiKey: 'f0e792ec-1aa7-4b69-b592-0eee9026d836',
-});
-
-// Abre el asistente al hacer clic en el botón
-document.getElementById('vapi-chatbot-btn').addEventListener('click', () => {
-  VapiChatbot.open();
-});
-
 
     // Related carousel
     $('.related-carousel').owlCarousel({
@@ -114,3 +103,14 @@ document.getElementById('vapi-chatbot-btn').addEventListener('click', () => {
     
 })(jQuery);
 
+
+    // Inicializa el asistente
+VapiChatbot.init({
+  assistantId: '08974042-e8ba-4de7-b75f-4d2e26d72334',
+  apiKey: 'f0e792ec-1aa7-4b69-b592-0eee9026d836',
+});
+
+// Abre el asistente al hacer clic en el botón
+document.getElementById('vapi-chatbot-btn').addEventListener('click', () => {
+  VapiChatbot.open();
+});
