@@ -60,6 +60,18 @@
     });
 
 
+    // Inicializa el asistente
+VapiChatbot.init({
+  assistantId: 'TU_ASISTENTE_ID',
+  apiKey: 'TU_API_KEY',
+});
+
+// Abre el asistente al hacer clic en el botón
+document.getElementById('vapi-chatbot-btn').addEventListener('click', () => {
+  VapiChatbot.open();
+});
+
+
     // Related carousel
     $('.related-carousel').owlCarousel({
         loop: true,
