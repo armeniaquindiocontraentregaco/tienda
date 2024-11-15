@@ -104,7 +104,11 @@
 })(jQuery);
 
 
-    // Inicializa el asistente
+// Reemplaza 'TU_API_KEY' y 'TU_ASSISTANT_ID' con tus credenciales
+const api_key = 'f0e792ec-1aa7-4b69-b592-0eee9026d836';
+const assistant_id = '08974042-e8ba-4de7-b75f-4d2e26d72334';
+
+// Inicializa Vapi AI
 VapiChatbot.init({
   assistantId: '08974042-e8ba-4de7-b75f-4d2e26d72334',
   apiKey: 'f0e792ec-1aa7-4b69-b592-0eee9026d836',
